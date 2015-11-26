@@ -15,8 +15,11 @@ Clone git, or download zip from here. Open ``Network_Programming_Lab_Guide.pdf``
 
 `src/unix` contains source code for UNIX environment (Experiment 1-9)
 
-`src/java` contains source code for Java (Experiment 10-)
+`src/winsock` contains source code for Windows Socket  (Winsock) API (Experiment 11)
 
+`src/java` contains source code for Java (Experiment 12-)
+
+Experiment 10 is ``Mysteries of Header files``
 
 ### About Lab Guide
 
