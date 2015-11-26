@@ -19,6 +19,8 @@ Clone git, or download zip from here. Open ``Network_Programming_Lab_Guide.pdf``
 
 `src/java` contains source code for Java (Experiment 12-)
 
+`src/server` contains files we used for running a localhost@6001
+
 Experiment 10 is ``Mysteries of Header files``
 
 ### About Lab Guide
