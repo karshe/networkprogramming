@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1448385654 source:c:\users\#uaa\desktop\winsock_prog\winsock_programs\hello_winsock.cpp
+	<stdio.h>
+
+1448389476 source:c:\users\#uaa\desktop\winsock_prog\winsock_programs\hello_client.cpp
+	<stdio.h>
+
+1448389466 source:c:\users\#uaa\desktop\winsock_prog\winsock_programs\hello_server.cpp
+	<stdio.h>
+
