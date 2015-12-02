@@ -48,12 +48,12 @@ table {
 
 /* LAYOUT STYLES */
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: Arial, serif;
   font-size: 1em;
   line-height: 1.5;
   color: #6d6d6d;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  background: #e7e7e7;
 }
 
 a {
@@ -66,14 +66,17 @@ a:hover {
 header {
   padding-top: 35px;
   padding-bottom: 25px;
+  border: none;
+  border-top: 5px solid #000;
 }
 
 header h1 {
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 48px; font-weight: 900;
+  font-family: Arial, serif;
+  font-size: 48px; 
   line-height: 1.2;
   color: #303030;
-  letter-spacing: -1px;
+  font-weight: 600;
+  letter-spacing: -2px;
 }
 
 header h2 {
@@ -86,7 +89,6 @@ header h2 {
 
 #container {
   min-height: 595px;
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
 }
 
 .inner {
@@ -163,6 +165,48 @@ a.button span {
 }
 #view-on-github {
   margin-right: 0;
+}
+
+a.button-2 {
+  float: left;
+  padding: 12px 15px 12px 15px;
+  margin-right: 14px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+  color: #303030;
+  background: #fdfdfd; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* IE10+ */
+  background: linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+  border-top: solid 1px #cbcbcb;
+  border-right: solid 1px #b7b7b7;
+  border-bottom: solid 1px #b3b3b3;
+  border-left: solid 1px #b7b7b7;
+  border-radius: 30px;
+  -webkit-box-shadow: 10px 10px 5px #888;
+  -moz-box-shadow: 10px 10px 5px #888;
+  box-shadow: 0px 1px 5px #e8e8e8;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+}
+a.button-2:hover {
+  background: #fafafa; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fdfdfd 0%, #f6f6f6 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* IE10+ */
+  background: linear-gradient(top,  #fdfdfd 0%,#f6f6f6, 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+  border-top: solid 1px #b7b7b7;
+  border-right: solid 1px #b3b3b3;
+  border-bottom: solid 1px #b3b3b3;
+  border-left: solid 1px #b3b3b3;
 }
 
 code, pre {
@@ -242,6 +286,8 @@ form {
 
 h1 {
   font-size: 32px;
+  text-transform: lowercase;
+  letter-spacing: -2px;
 }
 
 h2 {
