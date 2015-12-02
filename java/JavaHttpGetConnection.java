@@ -32,7 +32,7 @@ public class JavaHttpGetConnection {
 		con.setRequestProperty("User-Agent", USER_AGENT);
 
 		int responseCode = con.getResponseCode();
-		System.out.println("\nENDING 'GET' REQUEST TO CHRISTMAS CALCULATOR : " + url);
+		System.out.println("\nSENDING 'GET' REQUEST TO CHRISTMAS CALCULATOR : " + url);
 		System.out.println("RESPONSE CODE : " + responseCode);
 
 		BufferedReader in = new BufferedReader(
