@@ -1,7 +1,7 @@
 # Network Programming Lab File
 
 Following repo has source codes which are embedded in Network Programming Lab File I presented in my college.
-For more details you can visit website for following repo at ![http://karshe.github.io/networkprogramming/](http://karshe.github.io/networkprogramming/) 
+For more details you can visit website for following repo at <a href="http://karshe.github.io/networkprogramming/">Click here</a> 
 
 
 ### Uses following technology 
