@@ -1,5 +1,7 @@
 # Network Programming Lab File
 
+![Network Programming Lab File](http://karshe.github.io/networkprogramming/git_cover.png)
+
 Following repo has source codes which are embedded in Network Programming Lab File I presented in my college.
 For more details you can visit website for following repo at <a target="_blank" href="http://karshe.github.io/networkprogramming/">Click here</a> 
 
@@ -39,5 +41,3 @@ You will need PHP & Python in case you want to work with Java HTTP POST and GET 
 Have Happy Network Programming! 
 
 **Utkarsh Kumar Raut (hello@utkarshkumarraut.in)**
-
-![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)    
